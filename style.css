@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Tenor+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Encode Sans Expanded", sans-serif;
+    box-sizing: border-box
+;
+}
+
+header{
+    background-color: rgb(245, 217, 222);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10%;
+
+}
+
+header button{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px;
+    padding: 2px;
+    border: 1px solid rgb(125, 35, 52);
+    background-color: rgb(245, 217, 222);
+    color: rgb(125, 35, 52);
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header button:hover{
+    background-color: rgb(125, 35, 52);
+    color: rgb(245, 217, 222);
+}
+
+header img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: rgb(125, 35, 52);
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 50%;
+
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+
+.Introduction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Introduction .BIO{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Introduction .BIO img{
+    width: 30%;
+}
+
+.Introduction .BIO p{
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: rgb(221, 208, 208);
+    color: #7d2334;
+    padding: 10px;
+    padding: 40px;
+    border-radius: 20% 0 20% 20%;
+    line-height: 40px;
+}
+
+.Introduction .BIO p span{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.BIO{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    font-weight: 560;
+    font: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(250, 236, 239);
+    padding: 20px 40px 60px 20px;
+
+}
+
+.O_level h3{
+    font-weight: 900;
+    font-size: 190px
+
+}
+
+section{
+    width: 80%;
+    margin: 19px auto;
+}
+
+
+.Education_background{
+    box-shadow: 1px 1px 5px #b4999e;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7d2334;
+}
+
+.Education_background div {
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+.Education_background div h3{
+    color: #faf3f5;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.Education_background div p{
+    font-size: 0.9rem;
+    width: 90%;
+    text-align: justify;
+    color: #f7bed4;
+    margin: 5px auto;
+}
+
+.Experiences h3{
+    font-size: 1.5rem;
+    color: #7d2334;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.Experiences p{
+    width: 90%;
+    margin: 2.5px auto;
+    color: #322729;
+    font-size: 0.85rem;
+}
+
+.Experiences ul {
+    width: 80%;
+    margin: 5px auto;
+    color:#564447;
+    font-weight: 800;
+    font-size: 0.87rem;
+}
